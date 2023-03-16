@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc &CFILE -o c; cat c.out
+gcc -E -P &CFILE > c
