@@ -20,4 +20,6 @@
 
 9-print_comb.c : prints all possible combinations of single digit numbers
 
+100-print_comb3.c : print all combinations of double digits
+
 
