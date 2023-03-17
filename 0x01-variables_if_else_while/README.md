@@ -12,4 +12,6 @@
 
 5-print_numbers.c : prints all single digit number of base 10
 
+6-print_numberz.c : prints all single digit numbe of base 10 using the putchar function
+
 
