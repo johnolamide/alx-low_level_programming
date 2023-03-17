@@ -24,22 +24,4 @@
 
 101-print_comb4.c : print all combinations of triple digits
 
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-101-print_comb4.c : print all combinations of triple digits
-
-
+102-print_comb5.c : print combinations of four digits
