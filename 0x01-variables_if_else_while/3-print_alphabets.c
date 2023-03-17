@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - prints alphabet in lower and upper case
- * Retun: returns 0 for SUCCESS
+ * Return: returns 0 for SUCCESS
  */
 int main(void)
 {
