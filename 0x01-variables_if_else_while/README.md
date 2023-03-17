@@ -2,4 +2,8 @@
 
 1-last_digit.c : print the last number stored in variable n
 
+2-print_alphabet.c : prints the alphabet in lowercase, followed by a new line.
+
+2-print_alphabet.c : prints the alphabet in lower case.
+
 
