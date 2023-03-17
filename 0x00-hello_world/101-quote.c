@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *text = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(STDERR_FILENO, text, sizeof(text));
+	char *S = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(STDERR_FILENO, S, sizeof(S));
 	return (1);
 }
