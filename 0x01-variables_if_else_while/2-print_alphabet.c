@@ -7,8 +7,9 @@ int main(void)
 {
 	char c;
 
-	for(c = 'A'; c <= 'Z'; c++)
+	for (c = 'A'; c <= 'Z'; c++)
 		putchar(c + 32);
+	putchar("\n");
 
 	return (0);
 }
