@@ -14,4 +14,6 @@
 
 6-print_numberz.c : prints all single digit numbe of base 10 using the putchar function
 
+7-print_tebahpla.c : print the alphabet in reverse
+
 
