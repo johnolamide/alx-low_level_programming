@@ -1,6 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 /**
  * main - checks if random number is positve,
  * nagative or zero.
