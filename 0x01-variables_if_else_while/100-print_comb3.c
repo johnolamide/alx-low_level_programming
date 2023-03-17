@@ -15,8 +15,10 @@ int main(void)
 			if (i == j)
 				continue;
 			else
+			{
 				putchar(i + '0');
 				putchar(j + '0');
+			}
 
 			if (i != 8 || j != 9)
 			{
