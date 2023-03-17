@@ -6,4 +6,6 @@
 
 2-print_alphabet.c : prints the alphabet in lower case.
 
+3-print_alphabets.c : prints the alphabet in lower case then upper case
+
 
