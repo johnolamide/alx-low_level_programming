@@ -10,4 +10,6 @@
 
 4-print_alphabt.c : prints the alphabets excluding q and e
 
+5-print_numbers.c : prints all single digit number of base 10
+
 
