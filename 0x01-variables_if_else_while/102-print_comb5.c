@@ -14,8 +14,13 @@ int main(void)
 	{
 		for (i = 0; i < 10; i++)
 		{
+			if (i == n)
+				continue;
+
 			for (j = 0; j < 10; j++)
 			{
+				if (j == i)
+					continue;
 				for (k = j + 1; k < 10; k++)
 				{
 					putchar(n + '0');
