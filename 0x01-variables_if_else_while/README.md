@@ -22,4 +22,24 @@
 
 100-print_comb3.c : print all combinations of double digits
 
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
+101-print_comb4.c : print all combinations of triple digits
+
 
