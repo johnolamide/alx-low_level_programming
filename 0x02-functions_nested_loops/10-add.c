@@ -6,7 +6,7 @@
  *
  * Return: returns the sum of two operand
  */
-int add (int i, int j)
+int add(int i, int j)
 {
 	int r;
 
