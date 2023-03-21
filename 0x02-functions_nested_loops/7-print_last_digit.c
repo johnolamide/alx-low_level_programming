@@ -3,6 +3,9 @@
  * print_last_digit - prints the last digit of a number
  * @n: number to get last digit
  *
+ * _abs - gives the absolute value of a number
+ * @n: number to get absolute value
+ *
  * Return: returns the last digit of number
  */
 int _abs(int n)
