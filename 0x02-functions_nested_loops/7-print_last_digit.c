@@ -4,11 +4,6 @@
  * @i: integer to get the absolute value
  *
  * Return: returns absolute value.
- *
- * print_last_digit - prints the last digit of a number
- * @n: number to get last digit
- *
- * Return: returns the last digit of number
  */
 int _abs(int i)
 {
@@ -17,6 +12,13 @@ int _abs(int i)
 	else
 		return (i);
 }
+
+/**
+ * print_last_digit - prints the last digit of a number
+ * @n: number to print last digit
+ *
+ * Return: returns the last digit of the number
+ */
 
 int print_last_digit(int n)
 {
