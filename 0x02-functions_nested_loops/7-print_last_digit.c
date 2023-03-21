@@ -16,6 +16,7 @@ int _abs(int i)
 /**
  * print_last_digit - prints the last digit of a number
  * @n: number to print last digit
+ * Return: returns absolute values
  */
 
 int print_last_digit(int n)
