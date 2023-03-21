@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_sign - checks positivity of number
  * @n: number to check
