@@ -52,7 +52,7 @@ void print_to_98(int n)
 				if (_abs(i) > 99)
 					_putchar('0' + (_abs(i) / 100));
 				_putchar('0' + (_abs(i) / 10) % 10);
-				_putchat('0' + (_abs(i) % 10);
+				_putchar('0' + (_abs(i) % 10);
 			}
 			if (i >= 10)
 				_putchar('0' + (i / 10));
