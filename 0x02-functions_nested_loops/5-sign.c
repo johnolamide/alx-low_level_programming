@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * print_sign - checks positivity of number
  * @n: number to check
@@ -25,3 +25,4 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
+}
