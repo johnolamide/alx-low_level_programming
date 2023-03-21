@@ -1,19 +1,21 @@
 #include "main.h"
 /**
+ * _abs - print the absolute value of a digit
+ * @i: integer to get the absolute value
+ *
+ * Return: returns absolute value.
+ *
  * print_last_digit - prints the last digit of a number
  * @n: number to get last digit
  *
- * _abs - gives the absolute value of a number
- * @n: number to get absolute value
- *
  * Return: returns the last digit of number
  */
-int _abs(int n)
+int _abs(int i)
 {
-	if (n < 0)
-		return (-n);
+	if (i < 0)
+		return (-i);
 	else
-		return (n);
+		return (i);
 }
 
 int print_last_digit(int n)
