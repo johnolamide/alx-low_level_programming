@@ -1,5 +1,19 @@
 #include "main.h"
 /**
+ * _abs - computes the absolute vakue of numbers
+ * @n: number to compute
+ *
+ * Return: returns the absolute values
+ */
+int _abs(int n)
+{
+	if (n > 0)
+		return (n);
+	else
+		return (-n);
+}
+
+/**
  * print_to_98 - prints to 98
  * @n: the number to print from
  * Return: returns void
@@ -30,7 +44,7 @@ void print_to_98(int n)
 	{
 		int i;
 
-		for (i = n; i <= 98; i++)
+		for (i = _abs(n); i <= 98; i++)
 		{
 			if (i >= 10)
 				_putchar('0' + (i / 10));
