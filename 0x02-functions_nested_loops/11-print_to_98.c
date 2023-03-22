@@ -20,7 +20,23 @@ int _abs(int n)
  */
 void print_to_98(int n)
 {
-	if (n >= 98)
+	if (n < 0)
+	{
+		int i;
+
+		for (i = n; i <= 98; i++)
+		{
+			_putchar('-');
+			_putchar('0' + _abs(i));
+			if (i != 98)
+			{
+				_putchar(',');
+				__putchar(' ');
+			}
+		}
+		_putchar('\n');
+	}
+	else if (n >= 98)
 	{
 		int i;
 
