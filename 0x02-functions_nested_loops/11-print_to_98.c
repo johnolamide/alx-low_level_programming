@@ -29,7 +29,8 @@ void print_to_98(int n)
 			_putchar('-');
 			if (_abs(i) > 100)
 				_putchar('0' + (_abs(i) / 100));
-			_putchar('0' + ((_abs(i) / 10) % 10));
+			if (_abs(i) >= 10)
+				_putchar('0' + ((_abs(i) / 10) % 10));
 			_putchar('0' + (_abs(i) % 10));
 			if (i != 98)
 			{
