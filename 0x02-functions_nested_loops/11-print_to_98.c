@@ -29,7 +29,7 @@ void negative_values(int n)
 		if (_abs(i) >= 100)
 			_putchar('0' + (_abs(i) / 100));
 		if (_abs(i) >= 10)
-			_putchar('0'+ ((_abs(i) / 10) % 10));
+			_putchar('0' + ((_abs(i) / 10) % 10));
 		_putchar('0' + (_abs(i) % 10));
 		if (i != 98)
 		{
