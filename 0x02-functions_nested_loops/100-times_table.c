@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - prints the times table
+ * tt - prints the times table
  * @j: size of the times table
  * Return: returns the table
  */
