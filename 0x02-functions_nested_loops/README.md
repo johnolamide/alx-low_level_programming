@@ -22,4 +22,12 @@
 
 11-print_to_98.c : prints all natural numbers from n to 98
 
+100-times_table.c : prints the n timestable,starting with 0
 
+101-natural.c : list all the natural numbers below 10 that are multiples of 3 or 5
+
+102-fibonacci.c : prints the first 50 Fibonacci numbers
+
+103-fibonacci.c : prints the sum of the even-valued terms
+
+104-fibonacci.c : prints the first 98 Fibonacci numbers
