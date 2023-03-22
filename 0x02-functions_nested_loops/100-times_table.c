@@ -27,7 +27,7 @@ void tt(int j)
 				_putchar(' ');
 				_putchar('0' + (m % 10));
 			}
-			else if (m >= 10)
+			else if (m >= 10 && i != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -35,7 +35,7 @@ void tt(int j)
 				_putchar('0' + (m / 10));
 				_putchar('0' + (m % 10));
 			}
-			else if (m >= 100)
+			else if (m >= 100 && i!= 0)
 			{
 				_putchar(',');
 				_putchar(' ');
