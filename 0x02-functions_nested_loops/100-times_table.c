@@ -40,7 +40,7 @@ void tt(int j)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar('0' + ((m / 100) % 10));
+				_putchar('0' + ((m % 100)));
 				_putchar('0' + ((m / 10) % 10));
 				_putchar('0' + (m % 10));
 			}
