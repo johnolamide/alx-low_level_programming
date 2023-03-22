@@ -4,7 +4,7 @@
  * @j: size of the times table
  * Return: returns the table
  */
-void times_table(int j)
+void tt(int j)
 {
 	int n;
 
@@ -47,6 +47,6 @@ void print_times_table(int n)
 {
 	if (n >= 0 && n <= 15)
 	{
-		times_table(n);
+		tt(n);
 	}
 }
