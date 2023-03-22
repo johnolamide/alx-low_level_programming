@@ -40,6 +40,7 @@ void tt(int j)
 				_putchar('0' + (m / 100));
 				_putchar('0' + ((m / 10) % 10));
 				_putchar('0' + (m % 10));
+			}
 		}
 		_putchar('\n');
 	}
@@ -53,7 +54,5 @@ void tt(int j)
 void print_times_table(int n)
 {
 	if (n >= 0 && n <= 15)
-	{
 		tt(n);
-	}
 }
