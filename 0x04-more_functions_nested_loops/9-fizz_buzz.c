@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * main - FizzBuzz program
  * Return: 0 for SUCCESS
  */
+
 int main(void)
 {
 	int i;
