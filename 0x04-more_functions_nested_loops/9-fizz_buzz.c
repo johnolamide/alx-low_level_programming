@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - FizzBuzz program
- * Return: void
+ * Return: 0 for SUCCESS
  */
 int main(void)
 {
