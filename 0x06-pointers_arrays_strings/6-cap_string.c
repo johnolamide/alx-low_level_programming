@@ -11,11 +11,8 @@ char *cap_string(char *str)
 
 	while (str[i] != '\0')
 	{
-		/* If the current character is a lowercase letter, convert it to uppercase */
 		if (str[i] >= 'a' && str[i] <= 'z')
 			str[i] -= 32;
-
-		/* If the current character is the first character of a word, capitalize it */
 		if (i == 0 || (str[i - 1] == ' ' || str[i - 1] == '\t' || str[i - 1] == '\n' ||
 			str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.' || str[i - 1] == '!' ||
 			str[i - 1] == '?' || str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')' ||
