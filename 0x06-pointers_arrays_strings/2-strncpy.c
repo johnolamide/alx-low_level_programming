@@ -4,7 +4,7 @@
  * @dest: destination pointer
  * @src: source pointer
  * @n : control integer
- * Return: return destination pointer 
+ * Return: return destination pointer
  */
 char *_strncpy(char *dest, char *src, int n)
 {
