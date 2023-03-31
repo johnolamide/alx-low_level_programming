@@ -7,8 +7,10 @@
  */
 char *leet(char *str)
 {
-	char *ptr = str;
+	char *ptr;
 	int i;
+
+	*ptr = str;
 
 	while (*ptr)
 	{
