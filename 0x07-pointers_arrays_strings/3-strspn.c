@@ -21,6 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 				R++;
 			}
 		}
+
 		if (accept[j] == '\0')
 			break;
 	}
