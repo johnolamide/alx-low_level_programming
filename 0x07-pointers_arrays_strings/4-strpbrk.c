@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * _strpbrk - searches a string for any of a set of bytes
  * @s: string pointer
@@ -7,11 +7,9 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	char *ps;
-	char *paccept;
+	char *ps = s;
+	char *paccept = accept;
 
-	*ps = s;
-	*paccept = accept;
 	for (; *ps != '\0'; ps++)
 	{
 		for (;  *paccept != '\0'; paccept++)
