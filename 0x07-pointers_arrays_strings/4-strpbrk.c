@@ -10,8 +10,8 @@ char *_strpbrk(char *s, char *accept)
 	char *ps;
 	char *paccept;
 
-	ps = &s;
-	paccept = &accept;
+	*ps = s;
+	*paccept = accept;
 	for (; *ps != '\0'; ps++)
 	{
 		for (;  *paccept != '\0'; paccept++)
