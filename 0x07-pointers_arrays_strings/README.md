@@ -14,4 +14,6 @@
 
 8-print_diagsums.c : function that prints the sum of the two diagonals of a square matrix of integers
 
+100-set_string.c : function that sets the value of a pointer to a char
 
+101-crackme_password : file that contains the password for the crackme2 executable
