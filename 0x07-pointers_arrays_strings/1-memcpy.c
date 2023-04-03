@@ -9,13 +9,14 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
-	char *pdest = &dest;
+	char **pdest;
 
 	i = 0;
+	*pdest = &dest;
 	while (i < n)
 	{
 		if (src[i] != '\0')
-			dest++ = src++;
+			*dest++ = *src++;
 		i++;
 	}
 
