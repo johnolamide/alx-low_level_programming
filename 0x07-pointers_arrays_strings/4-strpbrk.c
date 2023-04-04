@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 		for (;  *paccept != '\0'; paccept++)
 		{
 			if (*ps == *paccept)
-				return ps;
+				return (ps);
 		}
 
 		paccept = accept;
