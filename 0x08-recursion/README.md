@@ -11,3 +11,5 @@
 5-sqrt_recursion.c : returns the natural square root of a number
 
 6-is_prime_number : checks if a number is a prime number
+
+100-is_palindrome.c : checks if a string is a palindrome
