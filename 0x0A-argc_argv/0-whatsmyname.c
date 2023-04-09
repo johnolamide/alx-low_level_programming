@@ -7,12 +7,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	char *name = argv[0];
 
-	for (i = 0; name[i]; i++)
-		_putchar(name[i]);
-	_putchar('\n');
+	printf("%s\n", *name);
 
 	return (0);
 }
