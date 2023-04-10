@@ -7,7 +7,11 @@
  */
 int main(int argc, char *argv[])
 {
-	_putchar('0' + argc);
-	_putchar('\n');
-	return (0);
+	if (argc > 1)
+	{
+		printf("%d\n", argc);
+		return (0);
+	}
+	else
+		return (1);
 }
