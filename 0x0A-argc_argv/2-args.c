@@ -7,17 +7,15 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
+	if (argc > 0)
 	{
-		char *arg = argv[i];
-		while (*arg)
-		{
-			_putchar(*arg);
-			arg++;
-		}
-		_putchar('\n');
+		int i;
+
+		for (i = 0; i < argc; i++)
+			printf("%s\n", argv[i]);
+
+		return (0)
 	}
-	return (0);
+
+	return (1);
 }
