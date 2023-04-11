@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	len1 = 0;
 	len2 = 0;
 	p1 = s1;
-	p2 = s2
+	p2 = s2;
 
 	while (*p1 != '\0')
 	{
