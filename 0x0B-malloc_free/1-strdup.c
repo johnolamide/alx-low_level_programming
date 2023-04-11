@@ -7,21 +7,26 @@
  */
 char *_strdup(char *str)
 {
-	size_t len = 0;
+	size_t len;
+	char *p;
+	char *dup;
+	char *q;
+
 	if (str == NULL)
 		return (NULL);
 
-	char *p = str;
+	len = 0;
+	p = str;
 
 	while (*p++)
 		len++;
 
-	char *dup = (char *) malloc(len + 1);
+	dup = malloc(len + 1);
 
 	if (dup == NULL)
 		return (NULL);
 
-	char *q = dup;
+	q = dup;
 
 	while (*str)
 		*q++ = *str++;
