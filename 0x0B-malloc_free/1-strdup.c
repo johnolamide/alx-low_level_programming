@@ -5,7 +5,7 @@
  * Return: On success, a pointer to the duplicated string.
  * On failure, NULL.
  */
-char *_strdup(const char *str)
+char *_strdup(char *str)
 {
 	size_t len = 0;
 	if (str == NULL)
