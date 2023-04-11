@@ -11,7 +11,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	const char *p = str;
+	char *p = str;
 
 	while (*p++)
 		len++;
