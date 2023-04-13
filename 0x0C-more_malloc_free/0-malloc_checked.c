@@ -6,9 +6,8 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *mem;
+	char *mem;
 
 	mem = malloc(b * sizeof(*mem));
-
 	return (mem);
 }
