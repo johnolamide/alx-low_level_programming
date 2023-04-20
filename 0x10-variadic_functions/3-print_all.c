@@ -47,22 +47,23 @@ void print_string(va_list args)
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	void (*print_func[4])(va_list) = {print_char, print_int, print_float, print_string};
+	void (*print_func[4])(va_list) = {print_char, print_int,
+		print_float, print_string};
 	char types[] = {'c', 'i', 'f', 's'};
 	int i = 0;
 
 	va_start(args, format);
-	while(format[i])
+	while (format[i])
 	{
 		int j = 0;
 
-		while(j < 4)
+		while (j < 4)
 		{
 			if (format[i] == types[j])
 				print_func[j](args);
 			j++;
 		}
-		i++
+		i++;
 	}
 	va_end(args);
 }
