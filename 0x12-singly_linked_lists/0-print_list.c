@@ -10,7 +10,7 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		if (h->str == NULL || h->len == 0)
+		if (h->str == "" || h->str == NULL || h->len == 0)
 			printf("[0] (nil)\n");
 		else
 			printf("[%u] (%s)\n", h->len, h->str);
