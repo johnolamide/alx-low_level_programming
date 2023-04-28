@@ -10,5 +10,7 @@ main:
 	mov rdi, hello
 	xor eax, eax
 	call printf
+	mov eax, 0x0A
+	call printf
 	pop rbp
 	ret
