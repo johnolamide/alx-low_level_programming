@@ -1,5 +1,5 @@
 section .data
-	hello db 'Hello, Holberton\n', 0
+	hello db 'Hello, Holberton', 0xA, 0
 
 section .text
 	global main
@@ -9,8 +9,6 @@ main:
 	push rbp
 	mov rdi, hello
 	xor eax, eax
-	call printf
-	mov eax, 0x0A
 	call printf
 	pop rbp
 	ret
