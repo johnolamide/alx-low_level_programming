@@ -8,8 +8,8 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	unsigned int len = 0;
-	list_t new_node;
-	list_t prev_node;
+	list_t *new_node;
+	list_t *prev_node;
 
 	new_node = (list_t *)malloc(sizeof(list_t));
 	if (new_node == NULL)
