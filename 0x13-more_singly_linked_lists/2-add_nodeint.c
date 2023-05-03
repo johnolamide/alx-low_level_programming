@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
  * add_nodeint - add new node to the beginning of a list_t list
+ * @head: head of the listint_t list
  * @n: n property of list_t
  * Return: new node if SUCCESSFUL or NULL if not
  */
