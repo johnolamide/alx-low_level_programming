@@ -10,4 +10,6 @@
 
 5-flip_bits.c : returns the number of bits you would need to flip to get from one number to another
 
+100-get_endianness.c : checks the endianness
 
+101-password : password for a program
