@@ -51,14 +51,14 @@ void copy_file(int fd_from, int fd_to)
 		n_written = write(fd_to, buffer, n_read);
 		if (n_written == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
+			dprintf(STDERR_FILENO, "Error: Can't write to file\n");
 			exit(99);
 		}
 	}
 
 	if (n_read == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
+		dprintf(STDERR_FILENO, "Error: Can't read from file\n");
 		exit(98);
 	}
 }
