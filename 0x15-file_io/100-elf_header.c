@@ -5,8 +5,10 @@
  */
 void print_magic(Elf64_Ehdr *header)
 {
+	int i;
+
 	printf("Magic:   ");
-	for (int i = 0; i < EI_NIDENT; i++)
+	for (i = 0; i < EI_NIDENT; i++)
 		printf("%02x ", header->e_ident[i]);
 	printf("\n");
 }
