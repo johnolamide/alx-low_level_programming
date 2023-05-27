@@ -96,6 +96,7 @@ int main(int argc, char *argv[])
 	check_argc(argc);
 
 	fd_from = open_file(argv[1], O_RDONLY, 0, 98);
+	chmod(argv[2], S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 	fd_to = open_file(argv[2], O_CREAT | O_WRONLY | O_TRUNC,
 			S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH, 99);
 
