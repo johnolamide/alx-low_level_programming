@@ -1,7 +1,7 @@
 # 0x17-doubly_linked_lists
 
 ## Task 0
-- [ ] `0-print_dlistint.c`
+- [x] `0-print_dlistint.c`
 > Write a function that prints all the elements of a dlistint_t list.
 
 ## Task 1
