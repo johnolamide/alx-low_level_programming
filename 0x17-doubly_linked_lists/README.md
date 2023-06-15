@@ -33,5 +33,5 @@
 Write a function that inserts a new node at a given position
 
 ## Task 8
-- [ ] `8-delete_dnodeint.c`
+- [x] `8-delete_dnodeint.c`
 > Write a function that deletes the node at index index of a dlistint_t linked list.
