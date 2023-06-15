@@ -17,7 +17,7 @@
 > Write a function that adds a new node at the end of a dlistint_t list.
 
 ## Task 4
-- [ ] `4-free_dlistint.c`
+- [x] `4-free_dlistint.c`
 > Write a function that frees a dlistint_t list.
 
 ## Task 5
