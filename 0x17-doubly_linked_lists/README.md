@@ -29,7 +29,7 @@
 > Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
 
 ## Task 7
-- [ ] `7-insert_dnodeint.c`
+- [x] `7-insert_dnodeint.c`
 Write a function that inserts a new node at a given position
 
 ## Task 8
