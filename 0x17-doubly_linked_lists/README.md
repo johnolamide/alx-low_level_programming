@@ -21,7 +21,7 @@
 > Write a function that frees a dlistint_t list.
 
 ## Task 5
-- [ ] `5-get_dnodeint.c`
+- [x] `5-get_dnodeint.c`
 > Write a function that returns the nth node of a dlistint_t linked list.
 
 ## Task 6
