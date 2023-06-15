@@ -25,7 +25,7 @@
 > Write a function that returns the nth node of a dlistint_t linked list.
 
 ## Task 6
-- [ ] `6-sum_dlistint.c`
+- [x] `6-sum_dlistint.c`
 > Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
 
 ## Task 7
