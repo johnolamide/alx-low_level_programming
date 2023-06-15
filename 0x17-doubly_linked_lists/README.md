@@ -13,7 +13,7 @@
 > Write a function that adds a new node at the beginning of a dlistint_t list.
 
 ## Task 3
-- [ ] `3-add_dnodeint_end.c`
+- [x] `3-add_dnodeint_end.c`
 > Write a function that adds a new node at the end of a dlistint_t list.
 
 ## Task 4
