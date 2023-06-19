@@ -1,7 +1,7 @@
 # 0x18-dynamic_libraries
 
 ## Task 0
-- [ ] `libdynamic.so` `main.h`
+- [x] `libdynamic.so` `main.h`
 > Create the dynamic library libdynamic.so containing all the functions
 
 ## Task 1
