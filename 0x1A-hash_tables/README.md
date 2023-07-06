@@ -9,7 +9,7 @@
 > Write a hash function implementing the djb2 algorithm.
 
 ## Task 2
-- [ ] `2-key_index.c`
+- [x] `2-key_index.c`
 > Write a function that gives you the index of a key.
 
 ## Task 3
