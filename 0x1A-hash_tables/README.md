@@ -5,7 +5,7 @@
 > Write a function that creates a hash table.
 
 ## Task 1
-- [ ] `1-djb2.c`
+- [x] `1-djb2.c`
 > Write a hash function implementing the djb2 algorithm.
 
 ## Task 2
