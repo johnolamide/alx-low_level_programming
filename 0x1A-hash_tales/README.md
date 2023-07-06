@@ -1,7 +1,7 @@
 # 0x1A-C Hash Tables
 
 ## Task 0
-- [ ] `0-hash_table_create.c`
+- [x] `0-hash_table_create.c`
 > Write a function that creates a hash table.
 
 ## Task 1
