@@ -21,7 +21,7 @@
 > Write a function that retrieves a value associated with a key.
 
 ## Task 5
-- [ ] `5-hash_table_print.c`
+- [x] `5-hash_table_print.c`
 > Write a function that prints a hash table.
 
 ## Task 6
