@@ -17,7 +17,7 @@
 > Write a function that adds an element to the hash table.
 
 ## Task 4
-- [ ] `4-hash_tabl_get.c`
+- [x] `4-hash_tabl_get.c`
 > Write a function that retrieves a value associated with a key.
 
 ## Task 5
