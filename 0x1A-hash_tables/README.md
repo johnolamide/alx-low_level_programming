@@ -25,5 +25,5 @@
 > Write a function that prints a hash table.
 
 ## Task 6
-- [ ] `6-hash_table_delete.c`
+- [x] `6-hash_table_delete.c`
 > Write a function that deletes a hash table.
