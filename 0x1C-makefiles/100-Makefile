@@ -1,0 +1,30 @@
+.PHONY: all clean oclean fclean re
+
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra -pedantic
+SRC = main.c school.c
+OBJ = ${SRC:.c=.o}
+NAME = school
+RM = rm -f
+
+all: ${NAME}
+
+${NAME}: ${OBJ}
+	${CC} ${CFLAGS} -o ${NAME} ${OBJ}
+
+${OBJ}: %.o: %.c m.h
+	${CC} ${CFLAGS} -c $< -o $@
+
+clean:
+	${RM} ${OBJ} ${NAME} *~ \#*\#
+
+oclean:
+	${RM} ${OBJ}
+
+fclean: clean oclean
+
+re: fclean all
+
+ifeq (${wildcard m.h},)
+${OBJ}: m.h
+endif
