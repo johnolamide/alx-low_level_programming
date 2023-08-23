@@ -1,7 +1,7 @@
 # 0x1C Makefiles
 
 ## Task 0
-- [ ] `0-Makefile`
+- [x] `0-Makefile`
 
 ## Task 1
 - [ ] `1-Makefile`
