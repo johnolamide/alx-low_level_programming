@@ -7,7 +7,7 @@
 - [x] `1-Makefile`
 
 ## Task 2
-- [ ] `2-Makefile`
+- [x] `2-Makefile`
 
 ## Task 3
 - [ ] `3-Makefile`
