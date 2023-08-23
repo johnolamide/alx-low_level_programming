@@ -1,30 +1,51 @@
-.PHONY: all clean oclean fclean re
+# Makefile for building the 'school' executable
 
+# Compiler and compiler flags
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra -pedantic
+
+# Source files
 SRC = main.c school.c
-OBJ = ${SRC:.c=.o}
+
+# Object files (auto-generated from SRC)
+OBJ = $(SRC:.c=.o)
+
+# Executable name
 NAME = school
+
+# Program to delete files
 RM = rm -f
 
-all: ${NAME}
+# Rule to build the executable
+all: $(NAME)
 
-${NAME}: ${OBJ}
-	${CC} ${CFLAGS} -o ${NAME} ${OBJ}
+# Rule to build the executable using object files
+$(NAME): $(OBJ)
+	$(CC) $(CFLAGS) -o $@ $^
 
-${OBJ}: %.o: %.c m.h
-	${CC} ${CFLAGS} -c $< -o $@
+# Rule to compile .c files into .o files
+.c.o:
+	$(CC) $(CFLAGS) -c -o $@ $<
 
+# Clean rule to remove object files and the executable
 clean:
-	${RM} ${OBJ} ${NAME} *~ \#*\#
+	$(RM) $(OBJ) $(NAME) *~ \#*\#
 
+# Rule to remove object files
 oclean:
-	${RM} ${OBJ}
+	$(RM) $(OBJ)
 
+# Rule to remove object files, executable, and temporary files
 fclean: clean oclean
 
+# Rule to recompile all source files
 re: fclean all
 
-ifeq (${wildcard m.h},)
-${OBJ}: m.h
+# Check if m.h file exists before proceeding with compilation
+ifeq ($(wildcard m.h),)
+$(OBJ): m.h
 endif
+
+# Phony targets to prevent conflicts with file names
+.PHONY: all clean oclean fclean re
+
