@@ -4,7 +4,7 @@
 - [x] `0-Makefile`
 
 ## Task 1
-- [ ] `1-Makefile`
+- [x] `1-Makefile`
 
 ## Task 2
 - [ ] `2-Makefile`
