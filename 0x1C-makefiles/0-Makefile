@@ -3,7 +3,7 @@
 all: school
 
 school:
-	gcc -o school school.c
+	gcc main.c school.c -o school
 
 clean:
 	rm -f school
