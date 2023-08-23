@@ -1,4 +1,9 @@
+.PHONY: all school clean
+
 all: school
 
 school:
 	gcc -o school school.c
+
+clean:
+	rm -f school
