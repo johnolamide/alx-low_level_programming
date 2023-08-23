@@ -10,7 +10,7 @@
 - [x] `2-Makefile`
 
 ## Task 3
-- [ ] `3-Makefile`
+- [x] `3-Makefile`
 
 ## Task 4
 - [ ] `4-Makefile`
