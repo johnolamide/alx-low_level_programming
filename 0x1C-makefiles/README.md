@@ -16,4 +16,4 @@
 - [x] `4-Makefile`
 
 ## Task 5
-- [ ] `5-island_perimeter.py`
+- [x] `5-island_perimeter.py`
