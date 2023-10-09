@@ -11,7 +11,7 @@
 > using the Binary search algorithm
 
 ## Task 2
-- [ ] `2-O`
+- [x] `2-O`
 
 ## Task 3
 - [ ] `3-O`
