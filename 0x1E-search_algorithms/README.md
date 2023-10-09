@@ -1,7 +1,7 @@
 # 0x1E Search Algorithms
 
 ## Task 0
-- [ ] `0-linear.c`
+- [x] `0-linear.c`
 > wrie a function that searches for a value in an array of integers
 > using the Linear search algorithm
 
