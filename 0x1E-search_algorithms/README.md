@@ -2,11 +2,11 @@
 
 ## Task 0
 - [x] `0-linear.c`
-> wrie a function that searches for a value in an array of integers
+> write a function that searches for a value in an array of integers
 > using the Linear search algorithm
 
 ## Task 1
-- [ ] `1-binary.c`
+- [x] `1-binary.c`
 > write a function tha searches for a value in a sorted array of integers
 > using the Binary search algorithm
 
